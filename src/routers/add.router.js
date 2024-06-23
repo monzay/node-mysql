@@ -6,5 +6,5 @@ router.get('/get/:id',routerGet);
 router.post("/add",routerAdd);
 router.delete("/delete/:id",routerDelete)
 router.patch("/update/:id",routerUpdate)
-router.get("/all",all)
+router.get("/",all)
 export default router;
